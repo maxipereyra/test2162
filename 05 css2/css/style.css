@@ -1,0 +1,15 @@
+.rojo{ 
+    font-size: medium;
+    color: rgb(230, 230, 243); 
+    background-color: rgba(24, 33, 159, 0.84);  
+    font-weight: bold; 
+}
+#suntText {
+    color: rgb(76, 227, 7);
+}
+
+#titulo2{
+    color: dodgerblue; 
+    font-weight: bold;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
