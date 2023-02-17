@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- label e input (el name es el q viaja)-->
+    <h2>Label, input</h2>
+    <form action="">
+        <label for="pNombre">Primer nombre</label> <br>
+        <input type="text" id="pNombre" name="pNombre">
+        <input type="submit" value="Submit">        
+    </form>
+
+    <!-- Radio buttons (el name es el q viaja)-->
+    <h2>Radio buttons</h2>
+
+    <form action="">
+        <div>
+            <h4>Seleccione tu genero:</h4>
+            <input type="radio" name="genero" id="fem" value="Femenino">
+            <label for="fem">Femenino</label><br>
+            <input type="radio" name="genero" id="masc" value="Masculino">
+            <label for="masc">Masculino</label><br>
+            <input type="radio" name="genero" id="otros" value="otros">
+            <label for="otros">Otro</label>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <!-- checkbox -->
+    <h2>checkbox</h2>
+    <form action="">
+        <input type="checkbox" name="vehiculo1" id="v1" value="Bici">
+        <label for="v1">Tengo bicicleta</label> <br>
+        <input type="checkbox" name="vehiculo2" id="v2" value="Auto">
+        <label for="v2">Tengo auto</label> <br>
+        <input type="checkbox" name="vehiculo3" id="v3" value="Moto">
+        <label for="v3">Tengo moto</label> <br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>

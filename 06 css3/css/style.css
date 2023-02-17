@@ -1,0 +1,31 @@
+.bloque {
+    background-color: blue;
+    color: aliceblue;
+    display: block;
+    width: 50%;
+    margin: 5px 8px 10px;
+}
+
+.seleccionable:hover{
+    color: aquamarine;
+    background-color: brown;
+}
+
+.bloque-inline{
+    background-color: rgb(43, 192, 225);
+    color: rgb(215, 14, 24);
+    display: inline-block;
+    width: 25%;
+}
+
+.enlinea{
+    background-color: rgb(54, 207, 11);
+    color: rgb(35, 17, 201);
+    display: inline;
+}
+
+.none{
+    background-color: rgb(225, 22, 181);
+    color: rgb(3, 25, 44);
+    /* display: none; */
+}
